@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "us_bank_microservice"
+version = "0.0.1"
+description = "A microservice to run banking transactions"
+authors = ["Bryan Jenks <bryan@bryanjenks.dev>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+loguru = "^0.6.0"
+requests = "^2.27.1"
+pytest = "^7.0.1"
+pandas = "^1.4.1"
+SQLAlchemy = "^1.4.31"
+uuid = "^1.30"
+rich = "^11.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
